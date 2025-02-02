@@ -2,11 +2,11 @@ function App() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="rotate-animation">
-        <img src="src/assets/sprite.png" alt="Sprite" className="w-40 h-40" />
+        <img src="sprite.png" alt="Sprite" className="w-40 h-40" />
       </div>
 
       <div className="rotate-animation-reverse">
-        <img src="src/assets/Fuzetea.png" alt="Fuzetea" className="w-40 h-40" />
+        <img src="fuzetea.png" alt="Fuzetea" className="w-40 h-40" />
       </div>
     </div>
   );
