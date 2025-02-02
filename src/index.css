@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: ghostwhite;
+}
+
+/* Animationen */
+@keyframes moveAndRotateRight {
+  0% {
+    transform: translateX(0) rotate(-45deg);
+  }
+  50% {
+    transform: translateX(30px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0) rotate(-45deg);
+  }
+}
+
+@keyframes moveAndRotateLeft {
+  0% {
+    transform: translateX(0) rotate(45deg);
+  }
+  50% {
+    transform: translateX(-30px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0) rotate(45deg);
+  }
+}
+
+/* Animationen */
+.rotate-animation {
+  animation: moveAndRotateRight 1s infinite;
+}
+
+.rotate-animation-reverse {
+  animation: moveAndRotateLeft 1s infinite;
+}
